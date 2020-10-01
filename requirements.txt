@@ -10,7 +10,8 @@ numpy==1.18.1
 Pillow==7.0.0
 scikit-image==0.17.2
 Werkzeug==0.16.1
-streamlit==0.67.1
+streamlit
 opencv-python==4.3.0.38
 gunicorn==19.9.0
 imageio==2.6.1
+flasgger==0.9.4
