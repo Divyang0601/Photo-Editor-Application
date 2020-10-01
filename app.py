@@ -3,7 +3,7 @@ import cv2
 from PIL import Image,ImageEnhance
 import numpy as np
 import os
-import base64
+import base58
 import imutils
 from io import BytesIO
 
@@ -18,8 +18,8 @@ angle3 = 180
 def get_image_download_link(img):
     buffered = BytesIO()
     img.save(buffered, format="JPEG")
-    img_str = base64.b64encode(buffered.getvalue()).decode()
-    href = f'<a href = "data:file/jpg;base64,{img_str}">Download result (Use image extension while downloading)</a>'
+    img_str = base58.b64encode(buffered.getvalue()).decode()
+    href = f'<a href = "data:file/jpg;base58,{img_str}">Download result (Use image extension while downloading)</a>'
     return href
 
 
