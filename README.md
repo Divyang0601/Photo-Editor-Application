@@ -3,9 +3,7 @@ Photo Editor built using OpenCV and Streamlit
 
 A glimpse of the website
 
-
-
-Soon to be deployed :) !
+![](editor.gif)
 
 Tools - 
 
@@ -21,3 +19,5 @@ Tools -
 - cd "folder directory"
 - streamlit run app.py
 - Copy the Local URL onto the web browser
+
+Soon to be deployed :) !
