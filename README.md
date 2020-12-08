@@ -16,8 +16,8 @@ Tools -
 - provision to download image after editing
 - more to be added soon
 
-## To contribute on this project - Clone the repository, download it, and run the following command on your terminal
+## To run this project on your local machine - Clone the repository, download it, and run the following command on your terminal
 
-- cd "Directory of main folder"
+- cd "folder directory"
 - streamlit run app.py
 - Copy the Local URL onto the web browser
