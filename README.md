@@ -19,5 +19,5 @@ Tools -
 ## To contribute on this project - Clone the repository, download it, and run the following command on your terminal
 
 - cd "Directory of main folder"
-- streamlit run main_app.py
+- streamlit run app.py
 - Copy the Local URL onto the web browser
